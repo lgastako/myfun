@@ -1,0 +1,1 @@
+# clojure-style persist maps
