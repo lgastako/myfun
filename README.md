@@ -111,13 +111,13 @@ strings one per instance ever only generated once per lifetime of the runtime.
 We basically want the same story from yesod or happstack or whatever with the
 HTMLString type that has to be explicitly converted to a safestring or whatever.
 
-So, how's this..
+[TODO]
 
 ## Function Arguments aka LHS Matches
 
-The LHS matches on constructors not types, hence p:Person is the first
-constructor not the type. (and p:AnonymousPerson is obviously the
-constructor). (This won't apply if we use the dot before/after approach).
+The LHS matches on constructors not types, hence Person.Person is the first
+constructor not the type. (and Person.AnonymousPerson is obviously the second
+constructor).
 
 Everything so far is immutable.
 
@@ -128,7 +128,7 @@ Laziness? Yay or nay?
 
 ## Data structures...
 
-verything built on tuples
+Everything built on tuples?
 
 TODO:
 - STUDY THE IMPLEMENTATIONS OF CLOJURE DATA STRUCTURES.
